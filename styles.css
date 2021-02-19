@@ -77,4 +77,10 @@ ul {list-style-type: none; margin: 0; padding: 0;
 	background-color: white;
 }
 
-
+img{
+	 max-width: 70%;
+ 	 height: auto;
+	top: 500px;
+	margini-right: 15%;
+	margin-left: 15%;
+}
