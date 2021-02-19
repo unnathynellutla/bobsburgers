@@ -69,12 +69,190 @@ ul {list-style-type: none; margin: 0; padding: 0;
 
 
 .text {
-	width: 70%;
+	width: 50%;
 	padding: 30px;
-	top: 400px;
+	margin-top:40%;
 	position :fixed;
 	margini-right: 30%;
+	margin-left: 24%;
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+}
+
+img{
+	 max-width: 70%;
+ 	 height: auto;
+	margin-top: 22%;
+	margini-right: 15%;
 	margin-left: 15%;
+	position: fixed;
+}@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+    font-family: 'bobs_burgersregular';
+    src: url('bobs_burgers-webfont.woff2') format('woff2'),
+         url('bobs_burgers-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#top {
+	background-color: #f7df26; 
+	margin-right: auto;
+	margin-left: auto;
+	height: 150px; 
+	width: 96%;
+	text-align:center;
+	font-family:'bobs_burgersregular'; 
+	font-size: 170px; 
+	border-style: solid; 
+	border-width: 10px; 
+	border-radius: 10px; 
+	position: fixed;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+  	position: absolute;
+ 	top: 53%;
+ 	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+}
+
+ul {list-style-type: none; margin: 0; padding: 0;
+}
+		
+.menubar {overflow: hidden; width :96%; background-color: #e92332;
+	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
+	position: fixed; top: 185px; text-align: center;
+}
+
+.menubar a {
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family:'bobs_burgersregular';
+}
+
+.menubar a:hover {
+	background-color: #ff8080;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.menubar a.active {
+	background-color: #e92332;
+	color: #ddd;
+	
+}
+
+
+
+.text {
+	width: 50%;
+	padding: 30px;
+	margin-top:40%;
+	position :fixed;
+	margini-right: 30%;
+	margin-left: 24%;
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+}
+
+img{
+	 max-width: 70%;
+ 	 height: auto;
+	margin-top: 22%;
+	margini-right: 15%;
+	margin-left: 15%;
+	position: fixed;
+}@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+    font-family: 'bobs_burgersregular';
+    src: url('bobs_burgers-webfont.woff2') format('woff2'),
+         url('bobs_burgers-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#top {
+	background-color: #f7df26; 
+	margin-right: auto;
+	margin-left: auto;
+	height: 150px; 
+	width: 96%;
+	text-align:center;
+	font-family:'bobs_burgersregular'; 
+	font-size: 170px; 
+	border-style: solid; 
+	border-width: 10px; 
+	border-radius: 10px; 
+	position: fixed;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+  	position: absolute;
+ 	top: 53%;
+ 	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+}
+
+ul {list-style-type: none; margin: 0; padding: 0;
+}
+		
+.menubar {overflow: hidden; width :96%; background-color: #e92332;
+	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
+	position: fixed; top: 185px; text-align: center;
+}
+
+.menubar a {
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family:'bobs_burgersregular';
+}
+
+.menubar a:hover {
+	background-color: #ff8080;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.menubar a.active {
+	background-color: #e92332;
+	color: #ddd;
+	
+}
+
+
+
+.text {
+	width: 50%;
+	padding: 30px;
+	margin-top:40%;
+	position :fixed;
+	margini-right: 30%;
+	margin-left: 24%;
 	text-align: center;
 	font-size: 15px;
 	background-color: white;
