@@ -11,44 +11,36 @@
 
 
 
-#top {
+.top {
 	background-color: #f7df26; 
+	margin-bottom: 1%;
 	margin-right: auto;
 	margin-left: auto;
-	height: 150px; 
+	height: 10%; 
 	width: 96%;
+	top: 0%;
 	text-align:center;
 	font-family:'bobs_burgersregular'; 
 	font-size: 170px; 
 	border-style: solid; 
 	border-width: 10px; 
 	border-radius: 10px; 
-	position: fixed;
-}
-
-#wrapper {
-	width: 100%;
-	margin: 0;
-  	position: absolute;
- 	top: 53%;
- 	left: 50%;
- 	-ms-transform: translate(-50%, -50%);
- 	transform: translate(-50%, -50%);
+	
 }
 
 ul {list-style-type: none; margin: 0; padding: 0;
 }
 		
-.menubar {overflow: hidden; width :96%; background-color: #e92332;
+.menubar {overflow: hidden; width:96%; background-color: #e92332;
 	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
-	position: fixed; top: 185px; text-align: center;
+	text-align: center; margin-right: auto; margin-left: auto;
 }
 
 .menubar a {
 	float: left;
 	color: #000000;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 2%;
 	text-decoration: none;
 	font-size: 30px;
 	font-family:'bobs_burgersregular';
@@ -67,202 +59,108 @@ ul {list-style-type: none; margin: 0; padding: 0;
 }
 
 
-
 .text {
-	width: 50%;
-	padding: 30px;
-	margin-top:40%;
-	position :fixed;
-	margini-right: 30%;
-	margin-left: 24%;
+	max-width: 50%;
+	height: auto;
+	padding: 3%; 
+	bottom : -20%;
+	right: 22.5%;
+	font-family: dolly-new;
 	text-align: center;
-	font-size: 15px;
+	font-size: 20px;
 	background-color: white;
+	position:absolute;
 }
 
-img{
+.img1 {
 	 max-width: 70%;
  	 height: auto;
-	margin-top: 22%;
 	margini-right: 15%;
-	margin-left: 15%;
-	position: fixed;
-}@charset "UTF-8";
-/* CSS Document */
-
-@font-face{
-    font-family: 'bobs_burgersregular';
-    src: url('bobs_burgers-webfont.woff2') format('woff2'),
-         url('bobs_burgers-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	margin-left: 15%; 
+	overflow : hidden;
 }
 
-
-
-#top {
-	background-color: #f7df26; 
-	margin-right: auto;
-	margin-left: auto;
-	height: 150px; 
-	width: 96%;
-	text-align:center;
-	font-family:'bobs_burgersregular'; 
-	font-size: 170px; 
-	border-style: solid; 
-	border-width: 10px; 
-	border-radius: 10px; 
-	position: fixed;
+flex-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  align-content:space-around;
 }
 
-#wrapper {
-	width: 100%;
-	margin: 0;
-  	position: absolute;
- 	top: 53%;
- 	left: 50%;
- 	-ms-transform: translate(-50%, -50%);
- 	transform: translate(-50%, -50%);
+.container {
+	position:relative;
+	margin-top: 2%;
 }
 
-ul {list-style-type: none; margin: 0; padding: 0;
-}
-		
-.menubar {overflow: hidden; width :96%; background-color: #e92332;
-	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
-	position: fixed; top: 185px; text-align: center;
-}
-
-.menubar a {
-	float: left;
-	color: #000000;
+#schedule {
+	font-family: dolly-new;
 	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	background-color: white;
+	max-width: 65%;
+	margin-top: 13%;
+	margin-left:15%;
+	height: auto;
+	background-image: url(hamburger-5.jpg);
+	padding:3%;
+}
+
+.bottom {
+	background-color: #f7df26; 
+	text-align:center;
 	font-size: 30px;
-	font-family:'bobs_burgersregular';
-}
-
-.menubar a:hover {
-	background-color: #ff8080;
-	color: #000000;
+	font-family: "bobs_burgersregular";
+	padding: 1%;
+	height: 6%; 
+	width: 98%;
+	margin-top: 10%;
+	border-width: 6px; 
 	border-radius: 10px;
-}
-
-.menubar a.active {
-	background-color: #e92332;
-	color: #ddd;
+	border-style: solid; 
+	bottom: 0%;
 	
 }
 
-
-
-.text {
-	width: 50%;
-	padding: 30px;
-	margin-top:40%;
-	position :fixed;
-	margini-right: 30%;
-	margin-left: 24%;
-	text-align: center;
-	font-size: 15px;
-	background-color: white;
-}
-
-img{
-	 max-width: 70%;
+.img2{
+	max-width: 60%;
  	 height: auto;
-	margin-top: 22%;
-	margini-right: 15%;
-	margin-left: 15%;
-	position: fixed;
-}@charset "UTF-8";
-/* CSS Document */
-
-@font-face{
-    font-family: 'bobs_burgersregular';
-    src: url('bobs_burgers-webfont.woff2') format('woff2'),
-         url('bobs_burgers-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-#top {
-	background-color: #f7df26; 
-	margin-right: auto;
-	margin-left: auto;
-	height: 150px; 
-	width: 96%;
-	text-align:center;
-	font-family:'bobs_burgersregular'; 
-	font-size: 170px; 
-	border-style: solid; 
-	border-width: 10px; 
-	border-radius: 10px; 
-	position: fixed;
-}
-
-#wrapper {
-	width: 100%;
-	margin: 0;
-  	position: absolute;
- 	top: 53%;
- 	left: 50%;
- 	-ms-transform: translate(-50%, -50%);
- 	transform: translate(-50%, -50%);
-}
-
-ul {list-style-type: none; margin: 0; padding: 0;
-}
-		
-.menubar {overflow: hidden; width :96%; background-color: #e92332;
-	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
-	position: fixed; top: 185px; text-align: center;
-}
-
-.menubar a {
+	margin-top: 2%;
+	overflow : hidden;
+	margin-right: 3%;
+	margin-left:3%;
 	float: left;
-	color: #000000;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 30px;
-	font-family:'bobs_burgersregular';
 }
 
-.menubar a:hover {
-	background-color: #ff8080;
-	color: #000000;
-	border-radius: 10px;
+#contactinfo{
+	font-family: dolly-new;
+	font-size: 20px;
 }
 
-.menubar a.active {
-	background-color: #e92332;
-	color: #ddd;
-	
+#container2{
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 7%;
+	padding-top: 4%;
 }
 
 
-
-.text {
-	width: 50%;
-	padding: 30px;
-	margin-top:45%;
-	position :fixed;
-	margini-right: 30%;
-	margin-left: 23%;
-	text-align: center;
-	font-size: 15px;
-	background-color: white;
-}
-
-img{
-	 max-width: 70%;
- 	 height: auto;
-	margin-top: 22%;
-	margini-right: 15%;
-	margin-left: 15%;
-	position: fixed;
+@media screen and (max-width: 1000px) {
+  .top {
+    font-size: 80px;
+	border-width: 6px; 
+  }
+  .text{
+	font-size: 10px;	
+  }
+  .menubar {
+	 border-width: 6px;
+  }
+  .bottom {
+	 font-size: 15px;
+  }
+  #contactinfo {
+	  font-size: 15px;
+  }
 }
