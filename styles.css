@@ -152,7 +152,7 @@ flex-container {
 	border-width: 6px; 
   }
   .text{
-	font-size: 8px;	
+	font-size: 10px;	
   }
   .menubar {
 	 border-width: 6px;
@@ -163,4 +163,9 @@ flex-container {
   #contactinfo {
 	  font-size: 15px;
   }
+}
+
+@media screen and (max-width: 600px) {
+	.text{
+	   font-size:8px;
 }
