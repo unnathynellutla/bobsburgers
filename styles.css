@@ -70,6 +70,8 @@ ul {list-style-type: none; margin: 0; padding: 0;
 	font-size: 20px;
 	background-color: #fff;
 	position:absolute;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .img1 {
@@ -80,14 +82,13 @@ ul {list-style-type: none; margin: 0; padding: 0;
 	overflow : hidden;
 }
 
-flex-container {
+.flex-container {
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
   align-content:space-around;
 }
-
 .container {
 	position:relative;
 	margin-top: 1%;
@@ -146,7 +147,7 @@ flex-container {
 }
 
 .img3 {
-	max-width: auto%;
+	max-width: auto;
  	height: 300px;
 	margini-right: 15%;
 	margin-left: 1%; 
@@ -164,122 +165,16 @@ flex-container {
 	padding-right: 7%;
 	padding-bottom: 7%;
 	padding-top: 4%;
-}
-
-
-@media screen and (max-width: 1000px) {
-  .top {
-    font-size: 80px;
-	border-width: 6px; 
-  }
-  .text{
-	font-size: 10px;	
-  }
-  .menubar {
-	 border-width: 6px;
-  }
-  .bottom {
-	 font-size: 15px
-  }
-  #contactinfo {
-	  font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-	.text{
-	   font-size:8px;
-}
-font-size: 20px;
-	background-color: white;
-	position:absolute;
-}
-
-.img1 {
-	max-width: 70%;
- 	height: auto;
-	margini-right: 15%;
-	margin-left: 15%; 
-	overflow : hidden;
-}
-
-flex-container {
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  align-content:space-around;
-}
-
-.container {
-	position:relative;
-	margin-top: 1%;
-}
-
-#schedule {
-	font-family: dolly-new;
-	text-align: center;
-	color: #fff;
-	font-size: 20px;
-	background-color: white;
-	max-width: 65%;
-	margin-top: 13%;
-	margin-left:15%;
-	height: auto;
-	background-image: url("hamburger-5.jpg");
-	padding:3%;
-}
-
-.bottom {
-	background-color: #f7df26; 
-	text-align:center;
-	font-size: 30px;
-	font-family: "bobs_burgersregular";
-	padding: 1%;
-	height: 6%; 
-	width: 97%;
-	margin-top: 10%;
-	border-width: 6px; 
-	border-radius: 10px;
-	border-style: solid; 
-	bottom: 0%;
-	
-}
-
-.img2{
-	max-width: 60%;
- 	 height: auto;
-	margin-top: 2%;
-	overflow : hidden;
-	margin-right: 3%;
-	margin-left:3%;
-	float: left;
-}
-
-#contactinfo{
-	font-family:
-} dolly-new;
-	
-
-.menu_images {
+   flex-direction:column;
+}.menu_images {
 	text-align:center;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #container2{
-	padding-left: 7%;
-	padding-right: 7%;
-	padding-bottom: 7%;
-	padding-top: 4%;
+	border-width: 6px; 
 }
-
-
-@media screen and (max-width: 1000px) {
-  .top {
-    font-size: 80px;
-	border-width: 6px;  
-	}
 @media screen and (max-width: 1000px) {
   .top {
     font-size: 80px;
@@ -307,6 +202,6 @@ flex-container {
 	   font-size:8px;
 	}
 	.menu {
-		font size: 8px;
+		font-size: 8px;
 	}
 }
