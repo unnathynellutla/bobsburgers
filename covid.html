@@ -1,201 +1,81 @@
-@charset "UTF-8";
-/* CSS Document */
+!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Bob's Burgers</title>
 
-@font-face{
-    font-family: 'bobs_burgersregular';
-    src: url('bobs_burgers-webfont.woff2') format('woff2'),
-         url('bobs_burgers-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-.top {
-	background-color: #f7df26; 
-	margin-bottom: 1%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top:1%;
-	height: 10%; 
-	width: 97%;
-	top: 0%;
-	text-align:center;
-	font-family:'bobs_burgersregular'; 
-	font-size: 170px; 
-	border-style: solid; 
-	border-width: 10px; 
-	border-radius: 10px; 
-}
-
-ul {list-style-type: none; margin: 0; padding: 0;
-}
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/uzr0muu.css">
+</head>
+<body>
+	<div class="flex-container">
 		
-.menubar {overflow: hidden; width:97%; background-color: #e92332;
-	border-style: solid; border-color:#e92332; border-width: 10px; border-radius: 10px;
-	text-align: center; margin-right: auto; margin-left: auto;
-}
-
-.menubar a {
-	float: left;
-	color: #000000;
-	text-align: center;
-	padding: 2%;
-	text-decoration: none;
-	font-size: 30px;
-	font-family:'bobs_burgersregular';
-}
-
-.menubar a:hover {
-	background-color: #ff8080;
-	color: #000000;
-	border-radius: 10px;
-}
-
-.menubar a.active {
-	background-color: #e92332;
-	color: #ddd;
-	
-}
-
-#content {
-	width: 100%;
-}
-
-
-.img1 {
-	max-width: 70%;
- 	height: auto;
-	margini-right: 15%;
-	margin-left: 15%; 
-	overflow : hidden;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  align-content:space-around; 
-}
-.container {
-	position:relative; 
-	margin-top: 1%;
-}
-
-
-.text {
-	font-family: dolly-new;
-	text-align: center;
-	position: relative;
-	max-width: 50%;
-	background-color: white;
-	margin-right: auto;
-	margin-left: auto;
-	top: -200px;
-	padding: 2%;
-	font-size: 20px;
-}
-
-.welcome {
-	
-	font-family: dolly-new;
-	text-align: center;
-	position: relative;
-	max-width: 50%;
-	background-color: white;
-	margin-right: auto;
-	margin-left: auto;
-	top: -200px;
-	padding: 2%;
-	font-size: 20px;
-}
-
-.bottom {
-	background-color: #f7df26; 
-	text-align:center;
-	font-size: 30px;
-	font-family: "bobs_burgersregular";
-	padding: 1%;
-	height: 6%; 
-	width: 96%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 10%;
-	border-width: 6px; 
-	border-radius: 10px;
-	border-style: solid; 
-	bottom: 0%;
-	
-}
-
-.img2{
-	max-width: 60%;
- 	height: auto;
-	margin-top: 2%;
-	overflow : hidden;
-	margin-right: 3%;
-	margin-left:3%;
-	float: left;
-}
-
-.img3 {
-	max-width: auto;
- 	height: 300px;
-	margini-right: 15%;
-	margin-left: 1%; 
-	overflow : hidden;
-	display:inline-block;
-}
-
-.images_wrap {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-
-
-#container2{
-	border-width: 6px; 
-}
-@media screen and (max-width: 1000px) {
-  .top {
-    font-size: 80px;
-	border-width: 6px; 
-  }
-  .text{
-	font-size: 10px;	
-  }
-  .menubar {
-	 border-width: 6px;
-  }
-  .bottom {
-	 font-size: 15px;
-  }
-	.text {
-		font-size: 15px;
-		top: -70px;
+		<div class="top">
+		 Bob's Burgers	
+		</div>
 		
-	}
-	.welcome {
-		font-size: 15px;
-		top: -150px;
-	}
-	.img3 {
-		height: 200px;
-	}
-}
+	<div id="content">
+		
+		<div class="menubar">
+			
+		<ul>
+		  <li><a href="index.html">Home/Services</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+		  <li><a href="catering.html">Catering</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		  <li><a href="about.html">About Us</a></li>
+		  <li><a href="covid.html">Covid Updates</a></li>
+		</ul>
+			
+		</div>
+		
+	<div class = "container">
+		
+		<img src="bobs-burgers-covid-header.jpg" alt="" class = "img1">
+		
+		<div class = "text">
+		
+			<h1>Covid Procedures</h1>
+			<p>The protection and safety of our guests is of the utmost importance, as we navigate these strange days.
+			Our staff is taking every possible measure to ensure the health and safety of our guests and fellow employees.
+			We continue to monitor the latest CDC guidelines, as well as state and local officials for current safety protocols.</p>
+			
+			<p>All kitchen, dining, and takeout areas inside and out are consistently and carefully sanitized before, during, and after every shift. All staff is required to wear masks, as well as employ proper sanitizing procedures between each guest interaction. All guest and staff touch-points are regularly disinfected and sanitized, including but not limited to tables, chairs, bar-top, awning surfaces, take-out areas, tablets, computers, keyboards, salt and pepper shakers, pens, etc. </p>
+			
+			<p>Our building has 20' ceilings as well as multiple entrances and an open, breathable concept.
+			We have a new HVAC system with fresh outside air returned into the building for circulation.</p>
+			
+			<p>Guests are required to wear a mask when arriving for dine-in service and for picking up takeout. 
+			Masks are required at all times, EXCEPT when you eating and drinking at your table. 
+			We kindly ask that you remember to put your mask on when a staff member approaches your table
+			and BEFORE getting up from your seat. </p>
+			<p>*Please be aware that table time is limited to 90 minutes, thank you!</p>
+			
+			<p>Menus are one time use only, and for you to take home and share with your friends! Lastly we want to thank you for the support and generosity over the past months, we are incredibly grateful for such an amazingly kind and supportive community.</p>
+			
+			<a href="https://www.cdc.gov/coronavirus/2019-ncov/whats-new-all.html" target="_blank">Click here to view the latest CDC COVID updates</a>
+			
+			<h2>Join us in our outdoor heated tents!</h2>
+			
+		</div>
+		
+		<div class = "images_wrap">
+			
+			<img src="img_5645.jpg" alt="" class = "img3">
+			<img src="img_5646.jpg" alt="" class = "img3">
+		
+		</div>
+	
+	<div class = "bottom">
+		732-781-5744 / 11 Winthrop St Medford MA 02155 / bobsburgers@gmail.com
 
-@media screen and (max-width: 600px) {
-	.text{
-	   font-size:8px;
-		top: -50px;	
-	}
-	.welcome {
-		font-size:10px;
-		top:-100px;
-	}
-	.img3 {
-		height: 110px;
-	}
-}
+	   <br /> 
+		<br /> 
+		Family Owned since 2011
+	</div>
+	</div>
+ </div>
+</div>
+</body>
+</html>
