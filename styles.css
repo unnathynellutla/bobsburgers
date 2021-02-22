@@ -10,9 +10,6 @@
 }
 
 
-
-
-
 .top {
 	background-color: #f7df26; 
 	margin-bottom: 1%;
@@ -65,8 +62,6 @@ ul {list-style-type: none; margin: 0; padding: 0;
 }
 
 
-
-
 .img1 {
 	max-width: 70%;
  	height: auto;
@@ -80,24 +75,13 @@ ul {list-style-type: none; margin: 0; padding: 0;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  align-content:space-around;
+  align-content:space-around; 
 }
 .container {
-	position:relative;
+	position:relative; 
 	margin-top: 1%;
 }
-#schedule {
-	font-family: dolly-new;
-	text-align: center;
-	color: #fff;
-	font-size: 20px;
-	max-width: 65%;
-	margin-top: 13%;
-	margin-left:15%;
-	height: auto;
-	background-image: url("hamburger-5.jpg");
-	padding:3%;
-}
+
 
 .text {
 	font-family: dolly-new;
@@ -169,18 +153,6 @@ ul {list-style-type: none; margin: 0; padding: 0;
 	margin-left: auto;
 }
 
-#contactinfo{
-	font-family: dolly-new;
-	font-size: 20px;
-}
-
-#container2{
-	padding-left: 7%;
-	padding-right: 7%;
-	padding-bottom: 7%;
-	padding-top: 4%;
-   	flex-direction:column;
-}
 
 
 #container2{
@@ -199,9 +171,6 @@ ul {list-style-type: none; margin: 0; padding: 0;
   }
   .bottom {
 	 font-size: 15px;
-  }
-  #contactinfo {
-	  font-size: 15px;
   }
 	.text {
 		font-size: 15px;
